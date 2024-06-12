@@ -605,6 +605,7 @@ pre code {
           flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  margin-bottom: 20px;
 }
 
 .no-gutters {
@@ -11192,10 +11193,16 @@ p {
   display: block;
   position: relative;
   overflow: hidden;
+  margin-bottom: 1px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .portfolio-card .portfolio-card-img {
   width: 100%;
+  height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
 }
 
 .portfolio-card .portfolio-card-overlay {
@@ -12097,7 +12104,7 @@ pre .code {
 }
 
 .header .header-content .header-title .down {
-  font-size: calc(30px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(19px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
   margin-bottom: 0;
   position: relative;
   display: block;

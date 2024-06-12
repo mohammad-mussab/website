@@ -21,13 +21,3 @@ $('#nav-toggle').click(function(){
     $(this).toggleClass('is-active')
     $('ul.nav').toggleClass('show');
 });
-
-document.addEventListener('DOMContentLoaded', function() {
-    const link = document.querySelector('a[href="#portfolio"]');
-    link.addEventListener('click', function(e) {
-        e.preventDefault();
-        document.querySelector('#portfolio').scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
